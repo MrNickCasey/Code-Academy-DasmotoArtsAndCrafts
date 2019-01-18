@@ -1,5 +1,6 @@
 body {
   font-family: Helvetica;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
 }
 
 h1 {
@@ -7,7 +8,7 @@ h1 {
   font-weight: bold;
   color: khaki;
   text-align: center;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+
 }
 
 h2 {
@@ -22,8 +23,7 @@ h3 {
 
 .itemList {
   display: flex;
-  flex-direction: row; 
-  flex-flow: row wrap;
+  flex-direction: row;
   justify-content: space-evenly;
 }
 
@@ -35,7 +35,6 @@ h3 {
 
 .itemHeader {
   text-align: center;
-
 }
 
 .price {
