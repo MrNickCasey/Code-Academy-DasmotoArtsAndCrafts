@@ -1,6 +1,14 @@
+@media only screen and (min-width: 768px) {
+
+  .itemList {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
 body {
   font-family: Helvetica;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+
 }
 
 h1 {
@@ -8,7 +16,6 @@ h1 {
   font-weight: bold;
   color: khaki;
   text-align: center;
-
 }
 
 h2 {
@@ -21,16 +28,10 @@ h3 {
   font-weight: bold;
 }
 
-.itemList {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
 .item {
-  border: 0.1px dotted black;
-  padding: 10px;
-  width: 30%;
+  flex-basis: 27%;
+  border: 1px dotted black;
+  background-color: white;
 }
 
 .itemHeader {
@@ -41,6 +42,7 @@ h3 {
   font-weight: bold;
   color: blue;
 }
+
 
 #brushHeader {
   background-color: mediumspringgreen;
